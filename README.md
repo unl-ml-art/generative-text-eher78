@@ -1,6 +1,6 @@
 # Project 1 Generative Text
 
-Abraham Schaecher, aschaecher2@huskers.unl.edu.  Test
+Abraham Schaecher, aschaecher2@huskers.unl.edu
 
 <!-- (Your teammate's contact info, if appropriate) -->
 
