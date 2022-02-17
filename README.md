@@ -16,6 +16,8 @@ Briefly describe the files that are included with your repository:
 - trained models
 - training data (or link to training data). what is your corpus?
 
+Talk about my results.
+
 ## Code
 
 Your code for generating your project:
