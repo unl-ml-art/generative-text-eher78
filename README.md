@@ -119,7 +119,8 @@ sometimes people find the big paintings uncomfortable."`
 `ex: Her grave lacks the pomp and circumstance of our past honors.`
 
 The basic template for evalutating the scores is:
-<img src="https://bit.ly/36vIIHb" align="center" border="0" alt="\frac{1.0(\# \text{blocks of text}) + 1.0(\# \text{blocks of text}) + 1.0(\# \text{blocks of text})}{\text{total blocks of text}}" width="547" height="43"/>
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
 
 #### Conditional Generation, Prefix "Machine"
 
