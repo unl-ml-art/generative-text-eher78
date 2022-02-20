@@ -20,7 +20,7 @@ For this project, I have decided to use the [GPT-2](https://github.com/openai/gp
 
 As for the data itself, I used the museum labels from the Sheldon Museum of Art as a way to gather existing descriptions of artworks as text data. I did so by taking pictures of the text descriptions of the artworks, convert the photos to text, refine the text data, and then add the data to the GPT-2 Model. 
 
-Example of Text Data of Artwork from Museum: 
+Sample of Text Data of from the Museum: 
 - `Edward Hopper's depictions of the everyday lives of city dwellers capture the anonymity and 
 isolation of modern urban living. Some of his most compelling pictures, including Room in New York, 
 are of figures seen through windows, seemingly unaware of being watched. In many paintings made 
@@ -33,9 +33,31 @@ Links to Data:
 
 ## Code
 
-Your code for generating your project:
+<!--Your code for generating your project:
 - training_code.py or training_code.ipynb - your training code
-- generative_code.py or generative_code.ipynb - your generation code
+- generative_code.py or generative_code.ipynb - your generation code -->
+The main code for the project is [gpt2-generate-finetune.ipynb](https://github.com/unl-ml-art/generative-text-eher78/blob/master/gpt2-generate-finetune.ipynb).
+
+The oversimplified version of this code is that:
+- Import the necessary packages such as the GPT2 Model, tensorflow, etc.
+- Connect to a GPU.
+- Download the 355M GPT-2 Model.
+- Upload the `Museum_Text.txt` as initial textual data.
+- Run the finetuning on the GPT-2 with the following parameters:
+```
+gpt2.finetune(sess,
+              dataset=file_name,
+              model_name=model_name,
+              steps=400,
+              restore_from='latest', # change to 'latest' to resume
+              run_name='run1',
+              print_every=10,
+              learning_rate=1e-5,
+              sample_every=100,
+              save_every=100
+              )
+```
+- Then generate the text with conditional or unconditional prompts. (See results)
 
 ## Results
 
