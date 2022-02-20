@@ -48,20 +48,53 @@ The oversimplified version of this code is that:
 gpt2.finetune(sess,
               dataset=file_name,
               model_name=model_name,
-              steps=400,
-              restore_from='latest', # change to 'latest' to resume
+              steps=200,
+              restore_from='fresh', # change to 'latest' to resume
               run_name='run1',
               print_every=10,
               learning_rate=1e-5,
               sample_every=100,
-              save_every=100
+              save_every=200
               )
 ```
 - Then generate the text with conditional or unconditional prompts. (See results)
 
 ## Results
 
-- Documentation of your generative text in an effective form. A file with your generated text (.pdf, .doc, .txt). 
+<!-- - Documentation of your generative text in an effective form. A file with your generated text (.pdf, .doc, .txt). -->
+The text generation results has produced a total of 4 sections from two categories: unconditional or conditional (with prompts) generation.
+
+Here are the sample results from each of the sections. Before moving on, it should be noted that the following parameters are the same for each section:
+- Steps = 200
+- Learning Rate = 1e-5
+
+#### Conditional Generation, Prefix "Machine"
+```
+In these muted, charcoal paintings made from fibreglass and iron, Houdini
+engaged the subconscious mind of the viewer, evoking both his psychological
+and physical states. As the viewer focuses on a particular color, the fibrous
+form shifts dramatically—from a solid block wall into a soft, muted waft;
+from a dark room into a warm one.
+```
+
+#### Conditional Generation, Prefix "Abstract"
+```
+The photos were taken of a cat in a cage, and one of the photos is shown below. It's lit from below up to reveal a close-up of the cat's eyes—brightly pigmented and infused with violet. The other photos, however, are from a higher perch, and reveal the cat from below down.
+```
+
+#### Conditional Generation, Prefix "Untitled"
+```
+This photograph, by Italian artist Giulietta Bensi, provides a rare 
+view of an eye. the artist is wearing a complete face view camera, allowing 
+agnostic reading of a picture to the naked eye. out of focus details such as 
+the tinge of brown around the irises and the thick black of the iris allow us to see 
+closely the thought processes involved in the drawing.
+```
+
+#### Unconditional Generation
+```
+In many of his earliest studies, Hinton relied upon cadaveries as a basic repository for body parts such as feet and hands, which he used to make paintings. For 2002'sI Live in Drowns, he visited six cemeteries in the Shenandoah Valley in Maryland to display hundreds of handmade pieces of his artwork: cotton embroidered hoodeds, brocaded vestments, embroidered gloves, and block print button-down shirts.all brooded on the commodification of corpses and the deaths they exert in the diaspora.
+```
 
 ## Technical Notes
 
