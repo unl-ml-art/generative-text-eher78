@@ -146,4 +146,4 @@ References to any papers, techniques, repositories you used:
 - Papers
   - [This is a paper](this_is_the_link.pdf)
 - Repositories
-- Blog posts
+- Blog post
