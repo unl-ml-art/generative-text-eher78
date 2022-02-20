@@ -12,10 +12,17 @@ Within the history of exhibitions and galleries, museum labels are a vital piece
 
 ## Model/Data
 
-Briefly describe the files that are included with your repository:
+<!--Briefly describe the files that are included with your repository:
 - trained models
-- training data (or link to training data). what is your corpus?
+- training data (or link to training data). what is your corpus? -->
 
+For this project, I have decided to use the [GPT-2](https://github.com/openai/gpt-2) text generation model for running this task. I did this becuase the GPT-2 Model allows the use of importing sample data to run results instead of the [GPT-3](https://github.com/openai/gpt-3) and how instead of the RNN model from the ml-art-code, this allows for a more refined model of text generation that is not determined one character at a time.
+
+As for the data itself, I used the museum labels from the Sheldon Museum of Art as a way to gather existing descriptions of artworks as text data. I did so by taking pictures of the text descriptions of the artworks, convert the photos to text, refine the text data, and then add the data to the GPT-2 Model. 
+
+Links to Data:
+- Museum Description Initial Data as Photos: [Photos of Artwork Descriptions](https://github.com/unl-ml-art/generative-text-eher78/blob/master/Museum_Text.pdf)
+- Museum Description Initial Data as Text: [Text of Artwork Descriptions](https://github.com/unl-ml-art/generative-text-eher78/blob/master/Museum_Text.txt)
 
 ## Code
 
