@@ -36,7 +36,7 @@ Links to Data:
 <!--Your code for generating your project:
 - training_code.py or training_code.ipynb - your training code
 - generative_code.py or generative_code.ipynb - your generation code -->
-The main code for the project is [gpt2-generate-finetune.ipynb](https://github.com/unl-ml-art/generative-text-eher78/blob/master/gpt2-generate-finetune.ipynb).
+The main code for the project is [gpt2-generate-finetune.ipynb](gpt2-generate-finetune.ipynb).
 
 The oversimplified version of this code is that:
 - Import the necessary packages such as the GPT2 Model, tensorflow, etc.
