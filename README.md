@@ -133,20 +133,32 @@ The averages from each section of text generated is below:
 - 5/6 = 0.833 = 83.3%
 
 #### Unconditional Generation
-- 9/24 = 0.375 = 37/5%
+- 9/24 = 0.375 = 37.5%
 
 ## Conclusions
+The conditional generations can vary from being below average to above average in terms of generating museum descriptions for artworks. I will add however that some of the generated data results did vary in paragraph and context so further analysis in connecting the paragraphs and the scoring could change as well. 
+
+Overall, I was surprised in how the sample text I gathered and collected at times almost resembled descriptions of artworks that do not exist yet. Perhaps this could be elevated further in providing the materials, name, date, and possibly the title of the artworks as well for the GPT-2 to generate. 
+
+I could potentially take this idea further and either have a human artist take the generated prompts to generate a physical/tangible piece of artwork or take the generated results to a text to image algorithm. This has the potential to explore what it means to be defined as an artist and the thought process behind creating art in terms of a machine and a human.
 
 ## Technical Notes
 
-Any implementation details or notes we need to repeat your work. 
+<!-- Any implementation details or notes we need to repeat your work. 
 - Does this code require other pip packages, software, etc?
-- Does it run on some other (non-datahub) platform? (CoLab, etc.)
+- Does it run on some other (non-datahub) platform? (CoLab, etc.) -->
+This will require the use of tensorflow and the 355M GPT-2 model with an accessible GPU.
+
+This could run on CoLab or other available computing resources with a similar structure or set-up.
 
 ## Reference
 
-References to any papers, techniques, repositories you used:
+<!-- References to any papers, techniques, repositories you used:
 - Papers
   - [This is a paper](this_is_the_link.pdf)
 - Repositories
-- Blog posts
+- Blog posts -->
+- [Sheldon Museum of Art](https://sheldonartmuseum.org/)
+- [GPT-2](https://github.com/openai/gpt-2)
+- [GPT-3](https://github.com/openai/gpt-3)
+- [AI am I?](https://areben.com/project/ai-am-i/)
