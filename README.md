@@ -105,6 +105,8 @@ brooded on the commodification of corpses and the deaths they exert in the diasp
 ## Evaluating the Results
 The generated results should fit within the theme of museum artwork descriptions to ensure the text is relevant to a piece of art and the creative process behind the work. As such, I decided the best way to evaluate the results is to implement a classification score to each block of text and get the average accuracy from each section.
 
+The other thing is that the classifications are based on one block of text by itself. This will not take into account a larger context of the textual results but each paragraph of text.
+
 Scoring Guidelines:
 - 1.0 = Description of Generated Text that looks like it is from a museum
 ` ex: In the 1950s, after 
