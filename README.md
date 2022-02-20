@@ -20,6 +20,13 @@ For this project, I have decided to use the [GPT-2](https://github.com/openai/gp
 
 As for the data itself, I used the museum labels from the Sheldon Museum of Art as a way to gather existing descriptions of artworks as text data. I did so by taking pictures of the text descriptions of the artworks, convert the photos to text, refine the text data, and then add the data to the GPT-2 Model. 
 
+Example of Text Data of Artwork from Museum: 
+- `Edward Hopper's depictions of the everyday lives of city dwellers capture the anonymity and 
+isolation of modern urban living. Some of his most compelling pictures, including Room in New York, 
+are of figures seen through windows, seemingly unaware of being watched. In many paintings made 
+between 1926 and 1932, Hopper included a single figure or couples in compositions that curator 
+Judith Barter has described as "[evoking] a hermetically sealed world of emotion."`
+
 Links to Data:
 - Museum Description Initial Data as Photos: [Photos of Artwork Descriptions](https://github.com/unl-ml-art/generative-text-eher78/blob/master/Museum_Text.pdf)
 - Museum Description Initial Data as Text: [Text of Artwork Descriptions](https://github.com/unl-ml-art/generative-text-eher78/blob/master/Museum_Text.txt)
