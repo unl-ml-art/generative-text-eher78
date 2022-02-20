@@ -119,7 +119,7 @@ sometimes people find the big paintings uncomfortable."`
 `ex: Her grave lacks the pomp and circumstance of our past honors.`
 
 The basic template for evalutating the scores is:
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
 
 
 #### Conditional Generation, Prefix "Machine"
