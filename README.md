@@ -79,7 +79,9 @@ from a dark room into a warm one.
 
 #### Conditional Generation, Prefix "Abstract"
 ```
-The photos were taken of a cat in a cage, and one of the photos is shown below. It's lit from below up to reveal a close-up of the cat's eyes—brightly pigmented and infused with violet. The other photos, however, are from a higher perch, and reveal the cat from below down.
+The photos were taken of a cat in a cage, and one of the photos is shown below. 
+It's lit from below up to reveal a close-up of the cat's eyes—brightly pigmented and infused with violet. 
+The other photos, however, are from a higher perch, and reveal the cat from below down.
 ```
 
 #### Conditional Generation, Prefix "Untitled"
@@ -93,7 +95,10 @@ closely the thought processes involved in the drawing.
 
 #### Unconditional Generation
 ```
-In many of his earliest studies, Hinton relied upon cadaveries as a basic repository for body parts such as feet and hands, which he used to make paintings. For 2002'sI Live in Drowns, he visited six cemeteries in the Shenandoah Valley in Maryland to display hundreds of handmade pieces of his artwork: cotton embroidered hoodeds, brocaded vestments, embroidered gloves, and block print button-down shirts.all brooded on the commodification of corpses and the deaths they exert in the diaspora.
+In many of his earliest studies, Hinton relied upon cadaveries as a basic repository for body parts such as feet and hands, which he used to make paintings. For 
+2002'sI Live in Drowns, he visited six cemeteries in the Shenandoah Valley in Maryland to display hundreds of handmade pieces of his artwork: cotton embroidered 
+hoodeds, brocaded vestments, embroidered gloves, and block print button-down shirts.all brooded on the commodification of corpses and the deaths they exert in the 
+diaspora.
 ```
 
 ## Technical Notes
