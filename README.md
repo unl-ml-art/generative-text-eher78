@@ -95,9 +95,10 @@ closely the thought processes involved in the drawing.
 
 #### Unconditional Generation
 ```
-In many of his earliest studies, Hinton relied upon cadaveries as a basic repository for body parts such as feet and hands, which he used to make paintings. For 
-2002'sI Live in Drowns, he visited six cemeteries in the Shenandoah Valley in Maryland to display hundreds of handmade pieces of his artwork: cotton embroidered 
-hoodeds, brocaded vestments, embroidered gloves, and block print button-down shirts.all brooded on the commodification of corpses and the deaths they exert in the 
+In many of his earliest studies, Hinton relied upon cadaveries as a basic repository for body parts such as feet and hands, 
+which he used to make paintings. For 2002's I Live in Drowns, he visited six cemeteries in the Shenandoah Valley in Maryland to 
+display hundreds of handmade pieces of his artwork: cotton embroidered hoodeds, brocaded vestments, embroidered gloves, 
+and block print button-down shirts.all brooded on the commodification of corpses and the deaths they exert in the 
 diaspora.
 ```
 
