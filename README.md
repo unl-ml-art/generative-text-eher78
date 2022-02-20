@@ -64,7 +64,7 @@ gpt2.finetune(sess,
 <!-- - Documentation of your generative text in an effective form. A file with your generated text (.pdf, .doc, .txt). -->
 The text generation results has produced a total of 4 sections from two categories: unconditional or conditional (with prompts) generation.
 
-Here are the sample results from each of the sections. Before moving on, it should be noted that the following parameters are the same for each section:
+Here are a section of the sample results from each of the sections. Before moving on, it should be noted that the following parameters are the same for each section:
 - Steps = 200
 - Learning Rate = 1e-5
 
@@ -101,6 +101,35 @@ he visited six cemeteries in the Shenandoah Valley in Maryland to display hundre
 cotton embroidered hoodeds, brocaded vestments, embroidered gloves, and block print button-down shirts.all
 brooded on the commodification of corpses and the deaths they exert in the diaspora.
 ```
+
+## Evaluating the Results
+The generated results should fit within the theme of museum artwork descriptions to ensure the text is relevant to a piece of art and the creative process behind the work. As such, I decided the best way to evaluate the results is to implement a classification score to each block of text and get the average accuracy from each section.
+
+Scoring Guidelines:
+- 1.0 = Description of Generated Text that looks like it is from a museum
+` ex: In the 1950s, after 
+spending two decades teaching himself to paint, he executed a number of major works, including this 
+one, and was beginning to make a name for himself. `
+
+- 0.5 = Quote from Artist
+`ex: "But really, my interest in painting lies in the fact of the painting. And I think that's why 
+sometimes people find the big paintings uncomfortable."`
+
+- 0.0 = Indecipherable Text or Irrelevant to Topic of Museum Descriptions
+`ex: Her grave lacks the pomp and circumstance of our past honors.`
+
+#### Conditional Generation, Prefix "Machine"
+
+
+#### Conditional Generation, Prefix "Abstract"
+
+
+#### Conditional Generation, Prefix "Untitled"
+
+
+#### Unconditional Generation
+
+## Conclusions
 
 ## Technical Notes
 
