@@ -119,7 +119,7 @@ sometimes people find the big paintings uncomfortable."`
 `ex: Her grave lacks the pomp and circumstance of our past honors.`
 
 The basic template for evalutating the scores is:
- <img src="http://www.sciweavers.org/tex2img.php?eq=%5Cfrac%7B1.0%28%5C%23%20%5Ctext%7Bblocks%20of%20text%7D%29%20%2B%200.5%28%5C%23%20%5Ctext%7Bblocks%20of%20text%7D%29%20%2B%200.0%28%5C%23%20%5Ctext%7Bblocks%20of%20text%7D%29%20%7D%7B%5Ctext%7BTotal%20Blocks%20of%20Text%7D%7D%20&bc=White&fc=Black&im=jpg&fs=18&ff=arev&edit=0" align="center" border="0" alt="\frac{1.0(\# \text{blocks of text}) + 0.5(\# \text{blocks of text}) + 0.0(\# \text{blocks of text}) }{\text{Total Blocks of Text}} " width="821" height="65" />
+<img src="https://bit.ly/36vIIHb" align="center" border="0" alt="\frac{1.0(\# \text{blocks of text}) + 1.0(\# \text{blocks of text}) + 1.0(\# \text{blocks of text})}{\text{total blocks of text}}" width="547" height="43"/>
 
 #### Conditional Generation, Prefix "Machine"
 
@@ -146,4 +146,4 @@ References to any papers, techniques, repositories you used:
 - Papers
   - [This is a paper](this_is_the_link.pdf)
 - Repositories
-- Blog post
+- Blog posts
