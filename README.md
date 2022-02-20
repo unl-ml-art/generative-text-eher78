@@ -124,15 +124,16 @@ The averages from each section of text generated is below:
 
 
 #### Conditional Generation, Prefix "Machine"
-
+- 11.5/19 = 0.605 = 60.5%
 
 #### Conditional Generation, Prefix "Abstract"
-
+- 6/23 = 0.261 = 26.1%
 
 #### Conditional Generation, Prefix "Untitled"
-
+- 5/6 = 0.833 = 83.3%
 
 #### Unconditional Generation
+- 9/24 = 0.375 = 37/5%
 
 ## Conclusions
 
