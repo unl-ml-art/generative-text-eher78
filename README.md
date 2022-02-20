@@ -118,8 +118,7 @@ sometimes people find the big paintings uncomfortable."`
 - 0.0 = Indecipherable Text or Irrelevant to Topic of Museum Descriptions
 `ex: Her grave lacks the pomp and circumstance of our past honors.`
 
-The basic template for evalutating the scores is:
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
+The averages from each section of text generated is below:
 
 
 #### Conditional Generation, Prefix "Machine"
