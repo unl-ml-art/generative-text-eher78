@@ -118,6 +118,8 @@ sometimes people find the big paintings uncomfortable."`
 - 0.0 = Indecipherable Text or Irrelevant to Topic of Museum Descriptions
 `ex: Her grave lacks the pomp and circumstance of our past honors.`
 
+<img src="http://www.sciweavers.org/tex2img.php?eq=a_i%5E2%20%2B%20b_j%5E2%20%3D%20c_k%5E2&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="a_i^2 + b_j^2 = c_k^2" width="103" height="28" />
+
 #### Conditional Generation, Prefix "Machine"
 
 
